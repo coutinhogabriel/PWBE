@@ -1,0 +1,53 @@
+.navbar {
+    border-bottom: 2px solid rgb(14, 13, 13);
+    /* Borda na parte inferior do cabeçalho*/
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.logo-img {
+    width: 50px;
+    /* Ajuste do tamanho do logo  */
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px;
+    /* Espaçamento entre os itens do menu */
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(17, 17, 17);
+    /* Alterar a cor do texto ao passar o mouse */
+}
+
+.carousel-image {
+    height: 600px;
+    /* Ajuste da altura */
+    object-fit: cover;
+    /* Para ajustar a imagem dentro do espaço definido */
+}
+
+.card-image {
+    height: 200px;
+    /* Ajuste da altura */
+    object-fit: cover;
+    /* Para ajustar a imagem dentro do espaço definido */
+}
+
+.footer-separator {
+    /* Linha superior do Rodapé */
+    background-color: #333;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+footer {
+    /* Rodapé */
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
